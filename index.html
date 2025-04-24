@@ -1,25 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <title>Harry Lu portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Lu Portfolio</title>
+  <link rel="stylesheet" href="style1.css" />
 </head>
 <body>
-  <h1>Hi, I'm Harry Lu</h1>
-  <p>Welcome to my portfolio!</p>
-  <ul>
-    <li><a href = "herry51214@gmail.com"> herry51214@gmail.com </a></li>
-    <li><a href = "https://www.linkedin.com/in/yi-hung-lu-158623227"> LinkedIn </a></li>
-  <ul>
-  
-  <p>Data scientist with experience in predictive modeling, NLP, and cloud-based data pipelines. Skilled in Python, SQL, and machine learning frameworks to develop scalable solutions for analyzing customer behavior, forecasting digital engagement, and optimizing app performance. Adept at translating business needs into actionable insights through data-driven experimentation and storytelling. Passionate about building intelligent tools that enhance user experience and support financial well-being.</p>
+    <!-- 頂部導覽列 -->
+    <nav class="navbar">
+      <div class="nav-name">Harry Lu</div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="Harry_Lu_Resume.pdf" target="_blank">Resume</a>
+      </div>
+    </nav>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/reallducky/AI-Powered-Travel-Recommendation-Systems.git">📊 Project 1 - AI-Powered-Travel-Recommendation-Systems </a></li>
-    <li><a href="https://github.com/yourusername/project2">🤖 Project 2 - NLP Chatbot</a></li>
-  </ul>
+    <div class="container">
+      <!-- 左側欄：個人資訊 -->
+      <div class="sidebar">
+        <img src="/Users/pikaqiu/Downloads/website/image/profile.jpg"  alt="Harry Lu" class="profile" />
+        <h1>Harry Lu</h1>
+        <p class="title">Data Scientist</p>
+        <p class="affiliation">M.S. in Data Science, American University</p>
+        <div class="social-links">
+          <a href="mailto:herry51214@gmail.com">Email</a>
+          <a href="https://github.com/reallucky">GitHub</a>
+          <a href="https://linkedin.com/in/yi-hung-lu-158623227">LinkedIn</a>
+        </div>
+      </div>
+  
+      <!-- 右側欄：自我介紹與專案 -->
+      <div class="main-content">
+        <p class="bio">
+          I’m passionate about solving real-world problems with data.  
+          My interests include <strong>NLP</strong>,  
+          <strong>cloud-based data engineering</strong>,  
+          <strong>prompt engineering</strong>, and  
+          <strong>human-centered AI</strong>.  
+          I enjoy building tools that enhance decision-making,
+          automate workflows, and make technology more accessible.
+        </p>
+  
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>AI-Powered Travel Recommendation</h3>
+            <p>NLP + SentBERT + LLMs + GCP</p>
+            <a href="https://github.com/reallucky/AI-Powered-Travel-Recommendation-Systems.git">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>R Shiny App</h3>
+            <p>Spotify Analysis for 2023</p>
+            <a href="https://github.com/reallducky/r-studio.git">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>Project 3 – Coming Soon</h3>
+            <p>Intent detection, conversation modeling, and fastapi backend.</p>
+            <a href="#">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
 </body>
 </html>
+
+
