@@ -1,113 +1,73 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #1e1e1e;
-  font-family: 'Segoe UI', sans-serif;
-  color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Lu Portfolio</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+    <!-- 頂部導覽列 -->
+    <nav class="navbar">
+      <div class="nav-name">Harry Lu</div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="Harry_Lu_Resume.pdf" target="_blank">Resume</a>
+      </div>
+    </nav>
 
-.container {
-  display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 2rem;
-  gap: 2rem;
-}
+    <div class="container">
+      <!-- 左側欄：個人資訊 -->
+      <div class="sidebar">
+        <img src="https://reallducky.github.io/image/image.jpeg"  alt="Harry Lu" class="profile" />
+        <h1>Harry Lu</h1>
+        <p class="title">Data Scientist</p>
+        <p class="affiliation">M.S. in Data Science, American University</p>
+        <div class="social-links">
+          <a href="mailto:herry51214@gmail.com">Email</a>
+          <a href="https://github.com/reallucky">GitHub</a>
+          <a href="https://linkedin.com/in/yi-hung-lu-158623227">LinkedIn</a>
+        </div>
+      </div>
+  
+      <!-- 右側欄：自我介紹與專案 -->
+      <div class="main-content">
+        <p class="bio">
+          I'm passionate about solving real-world problems with data.  
+          My interests include <strong>NLP</strong>,  
+          <strong>cloud-based data engineering</strong>,  
+          <strong>prompt engineering</strong>, and  
+          <strong>human-centered AI</strong>.  
+          I enjoy building tools that enhance decision-making,
+          automate workflows, and make technology more accessible.
+        </p>
+        <h2> Honors </h2>
+        <p class = "Awarded">
+          Awarded <strong>AI in Mathematical, Computer Sciences, and Natural Sciences</strong>
+          at <a href="https://www.american.edu/cas/news/2025-mathias-conference-winners.cfm">American University’s 35th Annual 
+            Robyn Rafferty Mathias Student Research Conference </a>
+        </p>
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>AI-Powered Travel Recommendation</h3>
+            <p>NLP + SentBERT + LLMs + GCP</p>
+            <a href="https://github.com/reallducky/AI-Powered-Travel-Recommendation-Systems.git">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>Spotify Analysis for 2023</h3>
+            <p>R Shiny App, Dashboard</p>
+            <a href="https://github.com/reallducky/r-studio.git">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>Project 3 – Coming Soon</h3>
+            <p>...</p>
+            <a href="#">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-.sidebar {
-  flex: 1;
-  max-width: 250px;
-  text-align: center;
-}
-
-.profile {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1.5rem;
-}
-
-.title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-}
-
-.affiliation {
-  font-size: 0.95rem;
-  color: #bbbbbb;
-  margin-bottom: 1rem;
-}
-
-.social-links a {
-  font-size: 1.5rem;
-  margin: 0 0.3rem;
-  color: #66ccff;
-  text-decoration: none;
-}
-
-.main-content {
-  flex: 3;
-}
-
-.bio {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #cccccc;
-  margin-bottom: 2rem;
-}
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.card {
-  background: #2c2c2c;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
-}
-
-.card a {
-  color: #66ccff;
-  text-decoration: none;
-}
-
-.navbar {
-  background-color: #222;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.nav-name {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-.nav-links a {
-  margin-left: 1.5rem;
-  text-decoration: none;
-  color: #007bff;
-  font-weight: 500;
-}
-
-.nav-links a.active {
-  color: #007bff;
-  font-weight: bold;
-}
-
-p a {
-  color: #66ccff;
-  text-decoration: none;
-}
+  
+</body>
+</html>
