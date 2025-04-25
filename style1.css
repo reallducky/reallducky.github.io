@@ -106,3 +106,8 @@ body {
   color: #007bff;
   font-weight: bold;
 }
+
+p a {
+  color: #66ccff;
+  text-decoration: none;
+}
